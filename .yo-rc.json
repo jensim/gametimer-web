@@ -1,0 +1,25 @@
+{
+  "generator-jhipster": {
+    "baseName": "gametimer",
+    "packageName": "se.jensim.game",
+    "packageFolder": "se/jensim/game",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "hazelcast",
+    "websocket": "spring-websocket",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": "no",
+    "useSass": true,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "enableTranslation": true,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "e93cf64f23356f96f827230a8de7fc7aaf5cb597",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ]
+  }
+}
